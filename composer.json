@@ -1,0 +1,19 @@
+{
+    "name": "team75/ecommerce",
+    "authors": [
+        {
+            "name": "Juan Luis Montano Marin",
+            "email": "pucho_xlive@hotmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\team75\\php-classes\\src"
+        }
+    }
+}
